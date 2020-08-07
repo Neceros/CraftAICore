@@ -1,0 +1,2 @@
+# CraftAICore
+ craft AI cores

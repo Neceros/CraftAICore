@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<RecipeDef>
+    <defName>Make_AIPersonaCore</defName>
+    <label>make AI persona core</label>
+    <description>Make an AI persona core.</description>
+    <jobString>Making an AI persona core.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1250</workAmount>
+    <workSkill>Intellectual</workSkill>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Artifacts</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>120</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>600</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Artifacts</li>
+      </categories>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>Gold</li>
+        <li>Silver</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>Artifacts</li>
+      </categories>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>Gold</li>
+        <li>Silver</li>
+      </thingDefs>
+    </defaultIngredientFilter>
+    <products>
+      <AIPersonaCore>1</AIPersonaCore>
+    </products>
+    <researchPrerequisite>CraftAICore</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>16</Crafting>
+      <Intellectual>14</Intellectual>
+    </skillRequirements>
+  </RecipeDef>
+
+</Defs>

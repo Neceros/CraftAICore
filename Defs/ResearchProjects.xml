@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+	<ResearchProjectDef>
+    <defName>CraftAICore</defName>
+    <label>craft AI persona core</label>
+    <description>Sacrificing an artifact with some additional materials will create a Persona Core. The recipe requires a talented crafter.</description>
+    <baseCost>8000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <unlockExtremeDifficulty>true</unlockExtremeDifficulty>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>17.00</researchViewX>
+    <researchViewY>2.05</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>
+
